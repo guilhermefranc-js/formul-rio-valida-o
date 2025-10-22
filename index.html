@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+</head>
+<body>
+    <section id="container">
+        <h1>Cadastre-se</h1>
+        <h2></h2>
+        <a href="login.html" class="botao-login" title="Ir para página de login">
+            <i class="fa-solid fa-right-to-bracket"></i> 
+        </a>
+<div class="row">
+<div class="campo-grupo1">
+
+    <p id="Nome-label">Primeiro nome</p>
+    <div class="input-com-icone">
+    <input type="text" id="Nome" class="box">
+    <i class="ph ph-user"></i>
+     </div>
+     <small class="error-message"></small>
+   </div>
+ </div>
+
+<div class="row">
+<div class="campo-grupo2">
+
+    <p id="Sobrenome-label">Sobrenome</p>
+    <div class="input-com-icone">
+    <input type="text" id="Sobrenome" class="box">
+    <i class="ph ph-user"></i>
+     </div>
+     <small class="error-message"></small>    
+   </div>
+ </div>
+
+<div class="row">
+  <div class="campo-grupo1">
+  <p id="Nascimento-label">Nascimento</p>
+ <input type="date" name="" id="Nascimento" min="1900-01-01" class="box">
+ <small class="error-message"></small>
+    </div>
+</div>
+
+<div class="row">
+<div class="campo-grupo2">
+
+    <p id="Email-label">E-mail</p>
+    <div class="input-com-icone">
+   <input type="email" id="email" placeholder="exemplo@gmail.com" class="box">
+    <i class="ph ph-envelope-simple"></i>
+     </div>
+     <small class="error-message"></small>    
+   </div>
+ </div>
+
+<div class="row">
+    <div class="campo-grupo1">
+
+        <p id="Senha1-label">Senha</p>
+        <div class="input-com-icone">
+        <input type="password" id="password-input1" min="8" max="15" class="box">
+        <i class="ph ph-eye"></i>
+     </div>    
+     <small class="error-message"></small>
+   </div>
+ </div>
+
+<div class="row">
+<div class="campo-grupo2">
+    
+    <p id="Senha2-label">Confirme a senha</p>
+    <div class="input-com-icone">
+    <input type="password" id="password-input2" class="box">
+    <i class="ph ph-eye"></i>
+     </div>    
+     <small class="error-message"></small>
+   </div>
+ </div>
+
+
+<div class="campo-grupo1">
+    <div id="sexo"><p id="Genero-label">Gênero:</p><br>
+
+    <input type="radio" id= "masculino" name="sexo"  value="masculino">
+     <label for="masculino">Masculino</label>
+
+    <input type="radio" id="feminino" name="sexo" value="feminino">
+    <label for="feminino">Feminino</label>
+    
+    <input type="radio" id="outro" name="sexo" value="outro">
+     <label for="outro">Outro</label>
+     <small class="error-message"></small>
+
+</div>
+
+<button onclick="criar()">✓ Criar conta</button>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

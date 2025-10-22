@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <section>
+        <div id="container">
+            <h1>Login</h1>
+            <h2></h2>
+
+<div class="campo-grupo1">
+            <p id="Email-label">E-mail</p>
+    <div class="input-com-icone">
+   <input type="email" id="email" placeholder="exemplo@gmail.com" class="box">
+    <i class="ph ph-envelope-simple"></i>
+     </div>
+     <small class="error-message"></small>  
+</div>
+
+
+<div class="campo-grupo2">
+            <p id="Senha-label">Senha</p>
+        <div class="input-com-icone">
+        <input type="password" id="password-input1" min="8" max="15" class="box">
+        <i class="ph ph-eye"></i>
+     </div>    
+     <small class="error-message"></small>
+
+            <button id="button" onclick="fazerLogin()">✓ Entrar</button>
+        </div>
+    </section>
+<script src="loginjs.js"></script>
+</body>
+</html>
+
+
