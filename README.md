@@ -38,5 +38,6 @@ Este projeto foi um ótimo exercício para praticar e solidificar conceitos esse
 
 
 
-* <img width="1920" height="1001" alt="image" src="https://github.com/user-attachments/assets/9c603859-711e-48c2-a766-0d6f99524ea2" />
+* <img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/a351ffac-1122-4339-80e4-5974bc9f3f83" />
+
 
